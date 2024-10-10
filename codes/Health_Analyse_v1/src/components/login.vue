@@ -37,7 +37,7 @@
   // ...
 
   // 登录成功后跳转到主页
-  router.push('/home');
+  router.push('/home/index');
 };
   </script>
   

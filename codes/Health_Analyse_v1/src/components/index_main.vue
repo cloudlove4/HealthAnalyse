@@ -59,7 +59,7 @@
                             </div>
                         </template>
                         <ul>
-                            <li v-for="i in 30">announcements</li>
+                            <li v-for="i in 25">announcements</li>
                         </ul>
                         <template #footer>
                             <el-input
