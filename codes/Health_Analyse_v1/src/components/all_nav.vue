@@ -48,7 +48,7 @@ function handleClick(menuItemIndex) {
     '2-2': '/home/Step_data', // 更新为正确的路径
     '2-3': '/home/phy_activity',
     '2-4': '/home/dietary_data',
-    '2-5': '/home/medication_data',
+    '2-5': '/  home/medication_data',
   };
 
   // 根据菜单项索引导航到相应的路径
