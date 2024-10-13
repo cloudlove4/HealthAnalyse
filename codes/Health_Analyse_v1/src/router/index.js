@@ -7,6 +7,7 @@ import PhyActivity from '../components/Phy_activity.vue';
 import SleepData from '../components/Sleep_data.vue';
 import DietaryData from '../components/Dietary_data.vue';
 import MedicationData from '../components/Medication_data.vue';
+import DataUpload from '../components/Data_upload.vue';
 
 const routes = [
   {
@@ -56,6 +57,11 @@ const routes = [
         path:'medication_data',
         name:'MedicationData',
         component:MedicationData
+      },
+      {
+        path:'data_upload',
+        name:'DataUpload',
+        component:DataUpload
       }
     ]
   }

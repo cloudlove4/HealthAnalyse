@@ -22,9 +22,9 @@
     <el-icon><Histogram /></el-icon>
     <span>Data Analyse</span>
   </el-menu-item>
-  <el-menu-item index="4" disabled>
+  <el-menu-item index="4" @click="handleClick('4')">
     <el-icon><Document /></el-icon>
-    <span>Navigator Three</span>
+    <span>Data Upload</span>
   </el-menu-item>
   <el-menu-item index="5" @click="handleClick('5')">
     <el-icon><Setting /></el-icon>
@@ -48,7 +48,8 @@ function handleClick(menuItemIndex) {
     '2-2': '/home/Step_data', // 更新为正确的路径
     '2-3': '/home/phy_activity',
     '2-4': '/home/dietary_data',
-    '2-5': '/  home/medication_data',
+    '2-5': '/home/medication_data',
+    '4':'/home/data_upload'
   };
 
   // 根据菜单项索引导航到相应的路径
